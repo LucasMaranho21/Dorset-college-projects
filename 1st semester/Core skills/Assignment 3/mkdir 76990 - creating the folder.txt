@@ -1,0 +1,16 @@
+mkdir 76990 - creating the folder
+cd 76990 - getting into the file
+git init - initializating git
+echo lucas madeira maranho > "76990.txt" - creating the file and adding a message
+git add . - adding the file to repository
+git commit -m "first file done" - add a commit
+copy 76990.txt 1996.txt - copying the first file and creating a second one
+echo I'm from Brazil > "1996.txt" - changing the message inside the second file
+git add . - adding the file to repository
+git commit -m "second file done" - add a commit
+del 76990.txt - deleting the first file
+git add . - adding the file to repository
+git commit -m "deleted" - add a commit
+git status - checking the information included
+git log - showing the commits
+github

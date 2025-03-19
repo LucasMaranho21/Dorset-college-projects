@@ -1,0 +1,18 @@
+172.27.124.0 /24
+
+2^7   2^6   2^5   2^4    2^3   2^2    2^1   2^0 = 255
+128   64    32     16     8     4      2     1
+
+Network address    10101100.00011011.01111100.00000000 Always all zero
+Subnet mask	   11111111.11111111.11111111.00000000
+Network/host	   NNNNNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+First Usable IP	   10101100.00011011.01111100.00000001
+Last usable IP	   10101100.00011011.01111100.11111110
+Broadcast Address  10101100.00011011.01111100.11111111 Always all one
+
+Usable range of IP addresses
+172.27.124.1 - 172.27.124.254
+
+
+
+10101100

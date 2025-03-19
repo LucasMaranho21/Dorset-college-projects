@@ -1,0 +1,40 @@
+Source 			Destination		Protocol	
+192.168.10.1:12		172.16.10.20:80		TCP
+192.168.10.1:45		10.10.10.1:443		TCP
+
+
+80    HTTP
+443   HTTPS
+
+
+CSMA - CARRIER SENSE MULTIPLE ACCESS
+CD - COLLLISION DETECTION
+
+
+WIRELESS
+CSMA - CARRIER SENSE MULTIPLE ACCESS
+CA - COLLLISION AVOIDANCE
+
+
+
+192.168.1.110
+11000000.10101000.0000001.00001010
+
+
+
+Default gateway address - its a way out from a subnet mask to connect to another subnet mask.
+All computers need a default gate.
+
+
+
+
+192.168.10.0 /24
+
+
+2^7   2^6   2^5   2^4    2^3   2^2    2^1   2^0 = 255
+128   64    32     16     8     4      2     1
+
+
+service password-encryption
+
+

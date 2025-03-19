@@ -1,0 +1,30 @@
+conf t
+service password-encryption
+!
+hostname Room-146
+!
+!
+enable secret 5 $1$mERr$3VSsmT5sO0ky2/3RzW2XS1
+!
+interface Vlan1
+ ip address 128.107.20.15 255.255.255.0
+ no shutdown
+exit
+!
+banner motd ^CAuthorised Access Only!^C
+!
+line con 0
+ password 7 081318760C4A
+ login
+!
+line vty 0 4
+ password 7 081318760C4A
+ login
+line vty 5 15
+ password 7 081318760C4A
+ login
+!
+!
+!
+!
+end

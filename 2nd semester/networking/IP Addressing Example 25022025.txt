@@ -1,0 +1,55 @@
+
+172.0.10.4 /24 this is an actual usable IP address
+
+
+NNNNNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+
+10101100.00000000.00001010.00000100
+11111111.11111111.11111111.00000000
+
+Logical ANDing
+1 and 1 = 1
+1 and 0 = 0
+0 and 1 = 0
+
+10101100.00000000.00001010.00000000	Network Address
+10101100.00000000.00001010.00000001	First usable address
+10101100.00000000.00001010.11111110	Last usable address
+10101100.00000000.00001010.11111111	Broadcast Address
+
+Document the range
+
+172.0.10.1 - 172.0.10.254
+
+Devices that don't change address, use either the beginning or
+the end of the range
+
+172.0.10.1 - 172.0.10.10 Static devices, Servers, Routers, Printers
+
+172.0.10.11 - 172.0.10.244 DHCP
+
+172.0.10.245 - 172.0.10.254 Static devices
+
+
+Router		G0/0	Green	172.0.10.254/24
+		G0/1	Blue	???
+Switch0		Int VLAN1 Green	172.0.10.253/24 DG 172.0.10.254/24
+Switch1		Int VLAN1 Blue	???
+Server0		Fast0	Green	172.0.10.252/24	DG 172.0.10.254/24
+PC0		Fast0	Green	172.0.10.11/24	DG 172.0.10.254/24
+PC1		Fast0	Green	172.0.10.12/24  DG 172.0.10.254/24
+PC2		Fast0	Green	172.0.10.13/24  DG 172.0.10.254/24
+PC3		Fast0	Blue	???
+
+
+
+
+Como vou preencher os gap?
+service password-encryption
+
+As partes de network address tem que ser em binario tbm ou somente o subnet mask que esta solicitando?
+
+Pc in Subnet A to default gateway devo pegar o default gateway do grupo A ou do grupo B?
+
+
+
